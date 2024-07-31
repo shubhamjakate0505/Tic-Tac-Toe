@@ -1,0 +1,22 @@
+body {
+    background-color: burlywood;
+}
+#Gamecontainer{
+    text-align: center;
+    font-family: cursive;
+}
+.grid{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px;
+    font-size: 50px ;
+}
+.gameborad{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 245px;
+    margin: auto;
+    margin-bottom: 20px;
+}
